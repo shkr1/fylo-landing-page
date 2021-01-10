@@ -4,69 +4,108 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon-32x32.png">
+
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="resources/css/reset.css">
+  <link rel="stylesheet" href="resources/css/fonts.css">
+  <link rel="stylesheet" href="resources/css/main.css">
 </head>
 <body>
-
-  Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
-
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
+  <header>
+    <nav>
+      <img src="./resources/images/logo.svg" alt="Fylo Logo">
+      <ul>
+        <li>Features</li>
+        <li>Team</li>
+        <li>Sign In</li>
+      </ul>
+    </nav>
+    <section>
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+      <p>Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family, and co-workers.
+      </p>
+      <form>
+        <input type="text" placeholder="Enter your email...">
+        <button>Get Started</button>
+      </form>
+      <img src="./resources/images/illustration-1.svg" alt="First Illustration">
+    </section>
+  </header>
+  <section>
+    <h2>Stay productive, wherever you are</h2>
+    <p>Never let location be an issue when accessing your files. Fylo has you
+      covered for all of your file storage needs.
+    </p>
+    <p>Securely share files and folders with friends, family and colleagues for
+      live collaboration. No email attachments required!
+    </p>
+    <a href="#">
+      See how Fylo works
+      <img src="./resources/images/icon-arrow.svg" alt="Arrow Icon">
+    </a>
+    <article>
+      <img src="./resources/images/icon-quotes.svg" alt="Quotes Icon">
+      <p>Fylo has improved our team productivity by an order of magnitude. Since
+        making the switch our team has become a well-oiled collaboration machine.
+      </p>
+      <img src="./resources/images/avatar-testimonial.jpg" alt="Profile Picture">
+      <p>Kyle Burton</p>
+      <p>Founder & CEO, Huddle</p>
+    </article>
+    <img src="./resources/images/illustration-2.svg" alt="Second Illustration">
+  </section>
+  <section>
+    <h2>Get early access today</h2>
+    <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+      If you have any questions, our support team would be happy to help you.
+    </p>
+    <form>
+      <input type="text" placeholder="email@example.com">
+      <button>Get Started For Free</button>
+    </form>
+  </section>
   <footer>
+    <img src="./resources/images/logo.svg" alt="Logo">
+    <ul>
+      <li>
+        <img src="./resources/images/icon-phone.svg" alt="Phone Icon">
+        <span>Phone: +1-543-123-4567</span>
+      </li>
+      <li>
+        <img src="./resources/images/icon-email.svg" alt="Email Icon">
+        <span>example@fylo.com</span>
+      </li>
+    </ul>
+    <ul>
+      <li>About Us</li>
+      <li>Jobs</li>
+      <li>Press</li>
+      <li>Blog</li>
+    </ul>
+    <ul>
+      <li>Contact Us</li>
+      <li>Terms</li>
+      <li>Privacy</li>
+    </ul>
+    <ul>
+      <li>
+        <img src="" alt="Facebook Logo">
+      </li>
+      <li>
+        <img src="" alt="Twitter Logo">
+      </li>
+      <li>
+        <img src="" alt="Instagram Logo">
+      </li>
+    </ul>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/shkr1" target="_blank">Gildardo Rosas</a>.
     </p>
   </footer>
 </body>
