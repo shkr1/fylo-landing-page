@@ -72,6 +72,7 @@ img {
 }
 
 .page__links .link > a {
+    color: var(--very-dark-blue);
     text-decoration: none;
 }
 
@@ -83,4 +84,45 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 36px;
+}
+
+.hero__information {
+    align-self: center;
+}
+
+.hero__text {
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.hero__form {
+    font-size: 0;
+}
+
+.form__input {
+    width: 50%;
+    height: 45px;
+    border: 1px var(--desaturated-blue) solid;
+    border-radius: 2px;
+    margin-right: 16px;
+    padding: 20px;
+}
+
+.form__input::placeholder {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: var(--light-gray);
+}
+
+.form__submit {
+    width: 30%;
+    height: 45px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    color: white;
+    background-color: var(--bright-blue);
+    border-radius: 2px;
+    cursor: pointer;
 }
