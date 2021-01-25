@@ -31,80 +31,92 @@
           family, and co-workers.
         </p>
         <form class="hero__form">
-          <input class="form__input" type="text" placeholder="Enter your email...">
+          <input class="form__input" type="email" placeholder="Enter your email...">
           <button class="form__submit">Get Started</button>
         </form>
       </div>
       <img src="./resources/images/illustration-1.svg" alt="First Illustration">
     </section>
   </header>
-  <section>
-    <h2>Stay productive, wherever you are</h2>
-    <p>Never let location be an issue when accessing your files. Fylo has you
-      covered for all of your file storage needs.
-    </p>
-    <p>Securely share files and folders with friends, family and colleagues for
-      live collaboration. No email attachments required!
-    </p>
-    <a href="#">
-      See how Fylo works
-      <img src="./resources/images/icon-arrow.svg" alt="Arrow Icon">
-    </a>
-    <article>
-      <img src="./resources/images/icon-quotes.svg" alt="Quotes Icon">
-      <p>Fylo has improved our team productivity by an order of magnitude. Since
-        making the switch our team has become a well-oiled collaboration machine.
-      </p>
-      <img src="./resources/images/avatar-testimonial.jpg" alt="Profile Picture">
-      <p>Kyle Burton</p>
-      <p>Founder & CEO, Huddle</p>
-    </article>
-    <img src="./resources/images/illustration-2.svg" alt="Second Illustration">
+  <section class="page__testimonials">
+    <div class="page__testimonials__wrapper">
+      <div class="testimonials">
+        <h2>Stay productive, wherever you are</h2>
+        <p class="testimonials__text">Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p class="testimonials__text">Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!
+        </p>
+        <a href="#" class="testimonials__link">
+          See how Fylo works
+          <img class="testimonials__link__image" src="./resources/images/icon-arrow.svg" alt="Arrow Icon">
+        </a>
+        <article class="testimonial">
+          <img class="quote" src="./resources/images/icon-quotes.svg" alt="Quotes Icon">
+          <p class="testimonial__text">Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="testimonial__wrapper">
+            <img class="testimonial__image" src="./resources/images/avatar-testimonial.jpg" alt="Profile Picture">
+            <div class="testimonial__information">
+              <p class="testimonial__name">Kyle Burton</p>
+              <p class="testimonial__position">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <img src="./resources/images/illustration-2.svg" alt="Second Illustration">
+    </div>
   </section>
-  <section>
-    <h2>Get early access today</h2>
-    <p>It only takes a minute to sign up and our free starter tier is extremely generous.
-      If you have any questions, our support team would be happy to help you.
-    </p>
-    <form>
-      <input type="text" placeholder="email@example.com">
-      <button>Get Started For Free</button>
+  <section class="page__promotional">
+    <div class="promotional__wrapper">
+      <h2 class="promotional__title">Get early access today</h2>
+      <p class="promotional__text">It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.
+      </p>
+    </div>
+    <form class="promotional__form">
+      <input class="form__input" type="text" placeholder="email@example.com">
+      <button class="form__submit">Get Started For Free</button>
     </form>
   </section>
-  <footer>
-    <img src="./resources/images/logo.svg" alt="Logo">
-    <ul>
-      <li>
-        <img src="./resources/images/icon-phone.svg" alt="Phone Icon">
-        <span>Phone: +1-543-123-4567</span>
-      </li>
-      <li>
-        <img src="./resources/images/icon-email.svg" alt="Email Icon">
-        <span>example@fylo.com</span>
-      </li>
-    </ul>
-    <ul>
-      <li>About Us</li>
-      <li>Jobs</li>
-      <li>Press</li>
-      <li>Blog</li>
-    </ul>
-    <ul>
-      <li>Contact Us</li>
-      <li>Terms</li>
-      <li>Privacy</li>
-    </ul>
-    <ul>
-      <li>
-        <img src="" alt="Facebook Logo">
-      </li>
-      <li>
-        <img src="" alt="Twitter Logo">
-      </li>
-      <li>
-        <img src="" alt="Instagram Logo">
-      </li>
-    </ul>
+  <footer class="page__footer">
+    <img class="footer__logo" src="./resources/images/logo--white.svg" alt="Logo">
+    <div class="footer__wrapper">
+      <ul>
+        <li>
+          <img id="phone-icon" src="./resources/images/icon-phone.svg" alt="Phone Icon">
+          <span>Phone: +1-543-123-4567</span>
+        </li>
+        <li>
+          <img id="email-icon" src="./resources/images/icon-email.svg" alt="Email Icon">
+          <span>example@fylo.com</span>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+      <ul class="footer__social">
+        <li>
+          <img src="./resources/images/facebook-logo.svg" alt="Facebook Logo">
+        </li>
+        <li>
+          <img src="./resources/images/twitter-logo.svg" alt="Twitter Logo">
+        </li>
+        <li>
+          <img src="./resources/images/instagram-logo.svg" alt="Instagram Logo">
+        </li>
+      </ul>
+    </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/shkr1" target="_blank">Gildardo Rosas</a>.
