@@ -131,7 +131,7 @@ img {
 .page__testimonials {
     background-image: url(../images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 114px;
     margin-bottom: 114px;
 }
 
@@ -320,4 +320,138 @@ img {
     position: absolute;
     bottom: 14px;
     left: 72px;
+}
+
+@media screen and (max-width: 1023px) {
+    .page__header {
+        padding: 0 16px 0;
+        margin-bottom: 86px;
+    }
+
+    .page__navigation {
+        padding: 32px 0;
+    }
+
+    .page__logo {
+        width: 110px;
+    }
+
+    .page__links .link {
+        margin-right: 16px;
+    }
+
+    .page__hero {
+        grid-template-columns: unset;
+        margin-top: 36px;
+    }
+
+    .hero__information {
+        order: 2;
+    }
+
+    .hero__title {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .hero__text {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .hero__form .form__input,.hero__form .form__submit {
+        width: 100%;
+    }
+
+    .hero__form .form__input {
+        margin-bottom: 16px;
+    }
+
+    .page__testimonials {
+        background-image: url(../images/bg-curve-mobile.svg);
+        margin-bottom: 53px;
+    }
+
+    .page__testimonials__wrapper {
+        grid-template-columns: unset;
+        padding: 0 16px 102px;
+    }
+
+    .testimonials {
+        order: 2;
+    }
+
+    .testimonials__title {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    .testimonials__text {
+        font-size: 1em;
+    }
+
+    .testimonials__link {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .page__promotional {
+        grid-template-columns: unset;
+        padding: 102px 16px;
+        gap: 30px;
+    }
+
+    .promotional__title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .promotional__text {
+        font-size: 1em;
+        text-align: center;
+        width: 96%;
+    }
+
+    .promotional__form {
+        text-align: center;
+    }
+
+    .promotional__form .form__input {
+        width: 80%;
+    }
+
+    .promotional__form .form__submit {
+        width: 80%;
+    }
+
+    .page__footer {
+        padding: 50px 32px;
+    }
+
+    .footer__wrapper {
+        flex-flow: column;
+    }
+
+    .footer__wrapper ul {
+        margin-right: unset;
+        margin-bottom: 15px;
+    }
+
+    .footer__social {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__social li {
+        margin-bottom: unset !important;
+    }
+
+    .attribution {
+        left: 16px;
+        bottom: 10px;
+    }
 }
